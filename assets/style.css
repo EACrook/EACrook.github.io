@@ -46,3 +46,35 @@ footer {
     justify-content: flex-end;
     margin: 5px 120px;
 }
+
+.body {
+    margin: 0 20px;
+}
+
+.projects {
+    background-color: darkslategrey;
+    color: lavender;
+    padding: 50px 20px;
+}
+
+.projects h2 {
+    padding: 20px 0 0 0;
+}
+
+.projects p {
+    font-size: 12px;
+}
+
+.about-me {
+    
+}
+
+.about-me h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.connect {
+    display: flex;
+    justify-content: flex-end;
+}
