@@ -1,3 +1,23 @@
 * {
-    background-color: mediumslateblue;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro-section {
+    background: #E6E6FA;
+   color: darkslategrey;
+   font-weight: bold;
+}
+
+.intro-section h1 {
+    font-size: 28px;
+}
+
+.intro-section h2 {
+    font-size: 48px;
 }
