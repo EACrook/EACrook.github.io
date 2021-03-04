@@ -1,5 +1,5 @@
 * {
-    margin: 10px;
+    margin: 10px 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,15 +16,33 @@ footer {
 }
 
 .intro-section {
-    background: #E6E6FA;
+    /* background-image: url("/assets/images/back-photo.jpg");
+    background-size: cover; */
+    background-color: lavender;
+    background-position: center;
    color: darkslategrey;
    font-weight: bold;
 }
 
 .intro-section h1 {
-    font-size: 28px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
 }
 
 .intro-section h2 {
     font-size: 48px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 80px 0 0;
+}
+
+.intro-section h3 {
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 120px;
 }
