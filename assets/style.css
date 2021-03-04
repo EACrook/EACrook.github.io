@@ -2,10 +2,17 @@
     margin: 10px;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+footer {
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 .intro-section {
