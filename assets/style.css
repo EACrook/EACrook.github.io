@@ -12,6 +12,52 @@ html {
     height: 100vh;
 }
 
+header {
+
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.nav-bar a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background: lavender;
+    color: black;
+}
+
+header nav h1 {
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    margin: 0;
+}
+
+header nav {
+    margin: 50px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
 body {
   
 }
