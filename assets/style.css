@@ -93,9 +93,6 @@ html {
 
 /* ---------------------MY PROJECTS SECTION -------------*/
 
-.projects {
-    ;
-}
 .projects h2 {
     text-transform: uppercase;
     text-align: left;
@@ -108,7 +105,7 @@ html {
     margin-right: 71.5%;
 }
 
-.projects .project1 {
+.project1 {
     height: 200px;
     width: 100%
     text-align: center;
@@ -127,29 +124,43 @@ html {
     color: lavender;
 }
 
-.projects .project1 {
+.project1 {
     margin-left: 30%;
     margin-right: 1%;
 }
 
-.projects .project2 {
+.project2 {
     margin-left: 30%;
     margin-right: 1%;
 }
 
-.projects .project3 {
+.project3 {
     margin-left: 1%;
     margin-right: 1%;
 }
 
-.projects .project4 {
+.project4 {
     margin-left: 30%;
     margin-right: 1%;
 }
 
-.projects .project5 {
+.project5 {
     margin-left: 1%;
     margin-right: 1%;
+}
+
+.subprojects p{
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 40%;
+}
+
+.project1 img {
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+    display: block;
+    object-fit: cover;
 }
 
 /* -------ABOUT ME-------- */
