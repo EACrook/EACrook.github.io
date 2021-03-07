@@ -87,8 +87,6 @@ h1, h2 {
 /* ------BODY--------*/
 .content {
     margin: 0 20px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .left-page {
@@ -98,7 +96,10 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+}
+
+.about, .projects, .connect {
+    margin-bottom: 50px;
 }
 
 
@@ -122,10 +123,39 @@ h1, h2 {
     width: 88%;
 }
 
-/* -----------MY PROJECTS SECTION -------------*/
 
 
+/* ---------------------MY PROJECTS SECTION -------------*/
 
+.projects {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.proj-container {
+    margin: 0 10px;
+    width: 88%;
+}
+
+.project1 {
+    background-color: slategray;
+    height: 200px;
+    width: 100%;
+}
+
+.subprojects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project2, .project3, .project4, .project5 {
+    background-color: slategray;
+    height: 100px;
+    width: 49.5%;
+    
+}
 
 /*------LET'S CONNECT ------*/
 .connect {
