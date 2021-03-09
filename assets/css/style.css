@@ -137,11 +137,19 @@ h1, h2 {
     width: 88%;
 }
 
-.project1 {
+.project1, .project1 img {
     background-color: slategray;
     height: 200px;
     width: 100%;
+    object-fit: cover;
 }
+
+.project1 img {
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+
 
 .subprojects {
     display: flex;
@@ -154,7 +162,6 @@ h1, h2 {
     background-color: slategray;
     height: 100px;
     width: 49.5%;
-    
 }
 
 /*------LET'S CONNECT ------*/
