@@ -97,11 +97,15 @@ h1, h2 {
 .left-page {
     padding-right: 50px;
     width: 280px;
-    border-right: 2px solid slategray;
+    border-right: 5px dotted slategray;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.left-page h2 {
+    text-align: center;
 }
 
 .about, .projects, .connect {
@@ -124,10 +128,12 @@ h1, h2 {
 .about-img {
     height: 200px;
     margin: 0px 10px;
+    
 }
  
 .about-img img{
     height: 200px;
+    border-radius: 25px;
 } 
 
 .about p {
@@ -158,6 +164,7 @@ h1, h2 {
     width: 100%;
     object-fit: cover;
     background-position: left;
+    border-radius: 20px;
 }
 
 .project1 img {
@@ -181,6 +188,7 @@ h1, h2 {
     background-color: slategray;
     height: 100px;
     width: 49.5%;
+    border-radius: 20px;
 }
 
 /*------LET'S CONNECT ------*/
@@ -189,7 +197,7 @@ h1, h2 {
     display: flex;
 }
 
-.about .left-page {
+.connect .left-page {
     padding-right: 50px;
     width: 307px;
 }
@@ -234,4 +242,6 @@ footer {
     font-size: 8px;
     display: flex;
     justify-content: center;
+    background: #333;
+    color: #f2f2f2;
 }
