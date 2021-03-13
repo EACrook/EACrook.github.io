@@ -5,6 +5,10 @@
     font-family: Playfair+Display;
 }
 
+header h1 {
+    font-size: 30px;
+}
+
 h1, h2 {
     text-transform: uppercase;
 }
@@ -43,6 +47,7 @@ h1, h2 {
 
 .nav-bar ul li {
     margin: 0 50px;
+    font-size: 20px;
 }
 
 /* -------------------INTRO SECTION ------------------- */
@@ -90,7 +95,8 @@ h1, h2 {
 }
 
 .left-page {
-    width: 15%;
+    padding-right: 50px;
+    width: 280px;
     border-right: 2px solid slategray;
     height: 200px;
     display: flex;
@@ -112,13 +118,15 @@ h1, h2 {
 .about-con {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 0px;
 }
 
-.about-img{
+.about-img {
     height: 200px;
     margin: 0px 10px;
 }
- .about-img img{
+ 
+.about-img img{
     height: 200px;
 } 
 
@@ -126,6 +134,10 @@ h1, h2 {
     width: 88%;
 }
 
+.about .left-page {
+    padding-right: 50px;
+    width: 307px;
+}
 
 
 /* ---------------------MY PROJECTS SECTION -------------*/
@@ -177,10 +189,16 @@ h1, h2 {
     display: flex;
 }
 
+.about .left-page {
+    padding-right: 50px;
+    width: 307px;
+}
+
 .fa {
-    padding: 20px;
-    font-size: 50px;
-    width: 50px;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     text-align: center;
     text-decoration: none;
 }
@@ -200,10 +218,16 @@ h1, h2 {
     color: white;
 }
 
+.fa-instagram {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    color: white;
+}
+
 .connect-links {
     margin-left: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 }
 /* -------FOOTER------ */
 footer {
