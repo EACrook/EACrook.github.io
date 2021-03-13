@@ -80,7 +80,7 @@ h1, h2 {
     text-align: center;
     display: flex;
     justify-content: flex-end;
-    margin: 5px 120px;
+    margin: 5px 170px;
     padding-bottom: 20px;
 }
 
@@ -114,10 +114,13 @@ h1, h2 {
     flex-wrap: wrap;
 }
 
-.about-img, .about-img img{
+.about-img{
     height: 200px;
     margin: 0px 10px;
 }
+ .about-img img{
+    height: 200px;
+} 
 
 .about p {
     width: 88%;
@@ -142,6 +145,7 @@ h1, h2 {
     height: 200px;
     width: 100%;
     object-fit: cover;
+    background-position: left;
 }
 
 .project1 img {
@@ -156,6 +160,9 @@ h1, h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
 }
 
 .project2, .project3, .project4, .project5 {
