@@ -261,7 +261,8 @@ h1, h2 {
 .connect {
     text-align: left;
     display: flex;
-    margin-bottom: -11px;
+    padding-bottom: 30px;
+    margin-bottom: -10px;
 }
 
 .connect .left-page {
@@ -333,4 +334,31 @@ h1, h2 {
 .footer h2 {
     color: var(--white-smoke);
     font-weight: lighter;
+}
+
+/* MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+    .about p {
+        width: 83%;
+    }
+
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 769px) {
+    .nav-bar h1, h2 {
+        font: 20px;
+    }
+
+    
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+   
 }
