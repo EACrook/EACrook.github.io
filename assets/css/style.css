@@ -33,6 +33,7 @@ h1, h2 {
     margin: 0;
     width: 100%;
     padding: 0 10px;
+    z-index: 1000;
 }
 
 .nav-bar a {
@@ -339,8 +340,11 @@ h1, h2 {
 /* MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
 
 @media screen and (max-width: 980px) {
+    
     .about p {
         width: 83%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 
@@ -348,12 +352,119 @@ h1, h2 {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
-@media screen and (max-width: 769px) {
-    .nav-bar h1, h2 {
+@media screen and (max-width: 768px) {
+   
+    /* GENERAL SECTION */
+    .left-page {
+        width: 585px;
+        padding-bottom: 10px;
+        border-right: 0;
+        border-bottom: 5px dotted var(--eggplant);
+        height: 125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-page h2 {
+        margin-bottom: -5px;
+    }
+
+   /* NAV BAR SECTION */
+    .nav-bar a {
         font: 20px;
     }
 
-    
+    /* INTRO SECTION */
+    .intro-section {
+        align-items: center;
+    }
+
+    .intro-section h2 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .intro-section h3 {
+        justify-content: center;
+        margin: 0 50px 0 0;
+        padding-bottom: 0px;
+    }
+
+
+    /* ABOUT SECTION */
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about p {
+        width: 100%;
+        padding: 5px 50px;
+    }
+
+    .about .left-page {
+        padding-right: 50px;
+        width: 585px;
+    }
+
+    .about-con {
+        display:flex;
+        justify-content: center;
+    }
+
+    .about-img .aboutimg img {
+        display:flex;
+        justify-content: center;
+    }
+
+    /* PROJECTS SECTION */
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .proj-container {
+        padding: 5px 50px;
+    }
+
+    .proj-container p {
+        font-size: 25px;
+    }
+
+    .text-box p, .proj1-text-box p {
+        font-size: 20px;
+    }
+
+    .text-box {
+        margin-top: -2px;
+    }
+
+    .proj1-text-box {
+        margin-top: -50px;
+    }
+
+    /* CONNECT SECTION */
+    .connect .left-page {
+        padding-right: 50px;
+        width: 585px;
+    }
+
+    .connect {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .connect-links {
+        padding: 5px 50px;
+    }
 
 }
 
